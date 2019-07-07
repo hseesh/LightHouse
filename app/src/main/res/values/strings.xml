@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LightHouse</string>
+    <string name="app_version">Ver.0.18.10</string>
+    <string name="github_address">https://github.com/hse-0</string>
+    <string name="mession">任务</string>
+    <string name="me">麦田</string>
+    <string name="add">添加</string>
+    <string name="add_mission">任务名称</string>
+    <string name="mission_level">任务等级</string>
+    <string name="set">设置</string>
+    <string name="delete">删除</string>
+    <string name="modifiction">修改</string>
+    <string name="tip_diary">开日写日记记录一下美好的一天吧...</string>
+    <string name="title">任务管理</string>
+    <string name="user_name">游客</string>
+    <string name="user_state">状态</string>
+    <string name="user_diary">日记</string>
+    <string name="news">消息</string>
+    <string name="user_set">设置</string>
+    <string name="user_level">LV11</string>
+    <string name="user_addinfor">待添加</string>
+    <string name="user_statistics">统计</string>
+    <string name="set_disclaimer">免责声明</string>
+    <string name="set_update">版本更新</string>
+    <string name="set_feeddback">意见反馈</string>
+    <string name="set_about">关于</string>
+    <string name="setting_disclaimer">
+        1.本软件免费使用且已开放源代码，您可以在我的Github主页下载本APP源码。\n
+        2.特此声明本工作室不承担用户因项目所引致的任何直接、间接、附带、从属、特殊的损害赔偿。\n
+        3.凡以任何形式使用本APP者，将视为同意本声明的内容并且自愿使用。</string>
+    <string name="fate_ui"><![CDATA[hse      程序 & UI]]></string>
+</resources>

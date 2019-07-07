@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:padding="11dp"
+        android:id="@+id/ed_feedback"
+        android:theme="@style/MyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="感谢你的反馈！"
+        android:maxLength="250"
+        android:minLines="4"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/iv_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ed_feedback"
+        android:src="@drawable/ic_sending"
+        android:padding="18dp" />
+
+
+
+
+</RelativeLayout>

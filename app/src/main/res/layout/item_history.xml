@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_xl"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/tv_missionnaem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="10"
+            android:text="一二三四五六七八九十"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/tv_build_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建于2018.08.05" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|end"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="2dp">
+
+            <RatingBar
+                android:id="@+id/rb_item"
+                style="@android:style/Widget.Holo.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:max="5"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/tv_finish_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成12次" />
+    </LinearLayout>
+
+
+</RelativeLayout>

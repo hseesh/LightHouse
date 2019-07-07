@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingTop="12dp"
+            android:text="@string/set_about"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#41555555" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingTop="12dp"
+            android:text="@string/set_disclaimer"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#41555555" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingTop="12dp"
+            android:text="@string/set_feeddback"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#41555555" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingTop="12dp"
+            android:text="@string/set_update"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_synchronization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#41555555" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingTop="11dp"
+            android:text="如何使用"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/rl_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/bk_logout_btn"
+                android:padding="10dp"
+                android:text="退出登录"
+                android:textColor="#a41475ba"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Powered by hse© 2016-2020 yatoufang Stu."
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

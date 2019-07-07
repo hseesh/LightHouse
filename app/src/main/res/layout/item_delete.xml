@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_menue"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#66141515"
+        android:gravity="center"
+        android:lines="1"
+        android:padding="10dp"
+        android:text="@string/delete"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/tv_modification"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#55b40909"
+        android:gravity="center"
+        android:lines="1"
+        android:padding="10dp"
+        android:text="@string/modifiction"
+        android:textColor="#ffff" />
+
+</LinearLayout>

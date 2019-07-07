@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0872b4"
+        android:gravity="end"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menue"
+        android:layout_below="@id/title"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="6dp"
+        android:id="@+id/menue"
+        android:background="#55e2dfdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/style_list_image"
+            android:text="任务"
+            android:textColor="@drawable/style_menu_text" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_record"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/style_record_image"
+            android:text="记录"
+            android:textColor="@drawable/style_menu_text" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/style_me_image"
+
+            android:text="我的"
+            android:textColor="@drawable/style_menu_text" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_ed_tips1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="旧密码"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/ed_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="6"
+
+        android:textSize="15sp"
+        android:theme="@style/MyEditText" />
+
+    <TextView
+
+        android:id="@+id/tv_ed_tips2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="新密码"
+        android:visibility="invisible" />
+
+    <EditText
+        android:textSize="15sp"
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLength="16"
+
+        android:theme="@style/MyEditText"
+        android:visibility="invisible" />
+
+</LinearLayout>

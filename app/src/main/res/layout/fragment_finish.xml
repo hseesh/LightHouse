@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#bebebe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_diary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="60dp"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="60dp"
+            android:background="#0b555555" />
+
+        <TextView
+            android:id="@+id/tv_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="60dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_finish"
+            android:background="@drawable/bg_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_unfinish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:id="@+id/tv_unfinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="60dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_islove"
+                style="@style/mycheckbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

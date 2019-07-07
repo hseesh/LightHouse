@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_mission"/>
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/ed_add"
+                android:theme="@style/MyEditText"
+                android:hint="请输入任务名称"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColorHint="#8b7d7d"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mission_level"/>
+            <RatingBar
+                android:id="@+id/ratingbar"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="250"
+                android:numStars="5"
+                android:progress="250"
+                android:rating="3"
+                android:stepSize="1"
+                android:isIndicator="false"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

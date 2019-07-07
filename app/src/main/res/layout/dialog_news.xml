@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bk_dialog"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="通知"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:text="这是新消"
+                android:textColor="#666000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:paddingBottom="20dp"
+                android:id="@+id/tv_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="hahahahha"
+                android:textColor="@color/colorBlue" />
+            <ImageView
+                android:src="@drawable/bk_news"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_cancel"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:src="@drawable/ic_config" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
